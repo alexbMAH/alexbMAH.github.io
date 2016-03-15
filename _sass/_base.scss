@@ -16,7 +16,7 @@ dl, dd, ol, ul, figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
+    background-color: #EEF5F5;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -162,6 +162,7 @@ pre {
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+	position:relative;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -170,6 +171,22 @@ pre {
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
+}
+
+.header {
+	background-image: url("/assets/spelutveckling_banner_background.png");
+	background-position: center;
+	height: 277px;
+}
+
+.banner-title {
+	position: absolute;
+	z-index: 10;
+	left: $spacing-unit;
+	top: 52px;
+	width: 376px;
+	height: 248px;
+	background-image: url("/assets/spelutveckling_banner_title.png");
 }
 
 
