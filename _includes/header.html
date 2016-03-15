@@ -1,5 +1,24 @@
 <header class="site-header">
-
+  <script src="/js/jquery-2.2.1.min.js"/>
+  <script type="text/javascript">
+	function floatUp(){
+		$(".banner-title").css("top","32px");
+		setTimeout(function(){
+			floatDown();
+		},1000);
+	}
+	
+	function floatDown(){
+		$(".banner-title").css("top","52px");
+		setTimeout(function(){
+			floatUp();
+		},1000);
+	}
+  
+	$(document).ready(function($) {
+		floatUp();
+	});
+  </script>
   <div>
 
     <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
