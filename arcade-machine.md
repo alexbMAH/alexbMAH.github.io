@@ -6,7 +6,7 @@ permalink: /arcade/
 
 This guide explains how to develop and publish games for Malmö University game development program’s arcade machine, currently found in section A3 of Orkanen, outside OR:A332. <Insert photo of the machine>
 
-As a game development framework, the arcade machine uses a modified version of the C#-based MonoGame framework (http://www.monogame.net/), which can be downloaded here <insert link to installer> in the form of an installer (including a Visual Studio template).
+As a game development framework, the arcade machine uses a modified version of the C#-based [MonoGame](http://www.monogame.net/) framework, which can be downloaded [here](https://github.com/alexbMAH/MAHArcade/raw/master/MAHArcadeSystemSetup.exe) in the form of an installer (including a Visual Studio template).
 
 Those familiar with MonoGame (or XNA) development, will find the MAHArcade framework mostly unchanged from standard MonoGame, but there are a number of key differences:
 
