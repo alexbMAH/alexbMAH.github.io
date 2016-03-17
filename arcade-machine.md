@@ -15,7 +15,7 @@ Those familiar with MonoGame (or XNA) development, will find the MAHArcade frame
 * A running game will be exited automatically if the input is idle for 90 seconds - so makes sure your cutscenes aren’t too long!
 * Games run in fullscreen at a resolution of  1920x1080. This cannot be altered.
 * Games are not permitted to open new windows.
-* Since the arcade machine is not controlled with a keyboard and mouse, the classes Keyboard and Mouse are inaccessible, replaced instead by the static class InputHandler, which provides access to input states for the arcade machine’s buttons and joysticks. The details of how MAHArcade handle input can be found below, in the section Input.
+* Since the arcade machine is not controlled with a keyboard and mouse, the classes Keyboard and Mouse are inaccessible, replaced instead by the static class InputHandler, which provides access to input states for the arcade machine’s buttons and joysticks. The details of how MAHArcade handles input can be found below, in the section Input.
 
 ## Preview Image/Banner:
 Once installed on the arcade machine, the game can be selected from a menu. Every game should have an associated preview image, shown to the right of the menu when an option is selected and (optionally) a banner to show in the menu. The preview image should be a png image named GamePreviewInfoImage.png, with dimensions 1280x1024 pixels. The image can contain anything, but it is recommended that it displays at least the game’s name and instructions for controlling the game. The menu banner should be a png image named GameBanner.png, with dimensions 512x64 pixels. The image should contain the game’s name. If no banner is provided, the name specified by the property GameDisplayName in Game1.cs will be used instead:
