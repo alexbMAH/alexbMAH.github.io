@@ -29,7 +29,7 @@ Both of these files must be placed in the Content/PreviewData subdirectory of th
 
 
 ## Publishing your game
-Once you’ve completed your masterpiece, complete the follow steps to get your game on the arcade machine:
+Once you’ve completed your masterpiece, complete the following steps to get your game on the arcade machine:
 
 1. Remember to add a preview image and game banner as described above.
 2. Change the Visual Studio build configuration to Release and build the project.
