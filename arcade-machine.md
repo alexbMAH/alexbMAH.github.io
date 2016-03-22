@@ -4,7 +4,9 @@ title: Arcade Machine
 permalink: /arcade/
 ---
 
-This guide explains how to develop and publish games for Malmö University game development program’s arcade machine, currently found in section A3 of Orkanen, outside OR:A332. <Insert photo of the machine>
+This guide explains how to develop and publish games for Malmö University game development program’s arcade machine, currently found in section A3 of Orkanen, outside OR:A332.
+
+![The arcade machine, in all its glory!](/assets/arcademachine.png)
 
 As a game development framework, the arcade machine uses a modified version of the C#-based [MonoGame](http://www.monogame.net/) framework, which can be downloaded [here](https://github.com/alexbMAH/MAHArcade/raw/master/MAHArcadeSystemSetup.exe) in the form of an installer (including a Visual Studio template). A full example project (the game Breakanoid, currently installed on the arcade machine) can be found [here](https://github.com/alexdbaldwin/ab4645-Breakout) - excuse the lack of comments! Note that the project uses the [Farseer Physics Engine](https://farseerphysics.codeplex.com/), which is a convenient way to add physics to a MonoGame project (however, it doesn't cooperate particularly well with the modified version of MonoGame we use. I was able to overcome this problem by including the Farseer source code in my project directly instead of simply referencing the compiled .dll).
 
