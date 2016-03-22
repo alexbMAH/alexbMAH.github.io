@@ -6,7 +6,7 @@ permalink: /arcade/
 
 This guide explains how to develop and publish games for Malmö University game development program’s arcade machine, currently found in section A3 of Orkanen, outside OR:A332. <Insert photo of the machine>
 
-As a game development framework, the arcade machine uses a modified version of the C#-based [MonoGame](http://www.monogame.net/) framework, which can be downloaded [here](https://github.com/alexbMAH/MAHArcade/raw/master/MAHArcadeSystemSetup.exe) in the form of an installer (including a Visual Studio template).
+As a game development framework, the arcade machine uses a modified version of the C#-based [MonoGame](http://www.monogame.net/) framework, which can be downloaded [here](https://github.com/alexbMAH/MAHArcade/raw/master/MAHArcadeSystemSetup.exe) in the form of an installer (including a Visual Studio template). A full example project (the game Breakanoid, currently installed on the arcade machine) can be found [here](https://github.com/alexdbaldwin/ab4645-Breakout) - excuse the lack of comments! Note that the project uses the [Farseer Physics Engine](https://farseerphysics.codeplex.com/), which is a convenient way to add physics to a MonoGame project (however, it doesn't cooperate particularly well with the modified version of MonoGame we use. I was able to overcome this problem by including the Farseer source code in my project directly instead of simply referencing the compiled .dll).
 
 Those familiar with MonoGame (or XNA) development, will find the MAHArcade framework mostly unchanged from standard MonoGame, but there are a number of key differences:
 
@@ -18,7 +18,19 @@ Those familiar with MonoGame (or XNA) development, will find the MAHArcade frame
 * Since the arcade machine is not controlled with a keyboard and mouse, the classes Keyboard and Mouse are inaccessible, replaced instead by the static class InputHandler, which provides access to input states for the arcade machine’s buttons and joysticks. The details of how MAHArcade handles input can be found below, in the section Input.
 
 ## Preview Image/Banner:
-Once installed on the arcade machine, the game can be selected from a menu. Every game should have an associated preview image, shown to the right of the menu when an option is selected and (optionally) a banner to show in the menu. The preview image should be a png image named GamePreviewInfoImage.png, with dimensions 1280x1024 pixels. The image can contain anything, but it is recommended that it displays at least the game’s name and instructions for controlling the game. The menu banner should be a png image named GameBanner.png, with dimensions 512x64 pixels. The image should contain the game’s name. If no banner is provided, the name specified by the property GameDisplayName in Game1.cs will be used instead:
+Once installed on the arcade machine, the game can be selected from a menu. Every game should have an associated preview image, shown to the right of the menu when an option is selected and (optionally) a banner to show in the menu. The preview image should be a png image named GamePreviewInfoImage.png, with dimensions 1280x1024 pixels. The image can contain anything, but it is recommended that it displays at least the game’s name and instructions for controlling the game. 
+
+![Example preview image.](/assets/GamePreviewInfoImage.png) 
+<br>
+*An example of a suitable (but basic) preview image.*
+
+The menu banner should be a png image named GameBanner.png, with dimensions 512x64 pixels. The image should contain the game’s name. 
+
+![Example preview image.](/assets/GameBanner.png)
+<br>
+*An example of a suitable banner.*
+
+If no banner is provided, the name specified by the property GameDisplayName in Game1.cs will be used instead:
 
 {% highlight csharp %}
 public override string GameDisplayName { get { return "project-name"; } }
@@ -33,7 +45,7 @@ Once you’ve completed your masterpiece, complete the following steps to get yo
 
 1. Remember to add a preview image and game banner as described above.
 2. Change the Visual Studio build configuration to Release and build the project.
-3. In a file browser, navigate to the project’s bin/Windows/Release subdirectory and copy the Content folder, <project-name>.dll and AssemblyInfo.txt to a new folder with the same name as the first line in AssemblyInfo.txt.
+3. In a file browser, navigate to the project’s bin/Windows/Release subdirectory and copy the Content folder, project-name.dll and AssemblyInfo.txt to a new folder with the same name as the first line in AssemblyInfo.txt.
 4. Compress the folder and e-mail it to alexander.baldwin@mah.se with a suitable subject/message.
 5. Alex will be kind enough to install your game for you if you did everything properly.
 
