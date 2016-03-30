@@ -106,10 +106,10 @@ Down | S | Down arrow | Joystick down
 Left | A | Left arrow | Joystick left
 Right | D | Right arrow | Joystick right
 A | M | Numpad 3 | Lower white button
-B | K | Numpad 6 | Upper white button
-Red | J | Numpad 5 | Red button
+B | J | Numpad 6 | Upper white button
+Red | N | Numpad 5 | Red button
 Blue | H | Numpad 4 | Blue button
-Yellow | N | Numpad 2 | Yellow button
+Yellow | B | Numpad 2 | Yellow button
 Green | G | Numpad 1 | Green button
 Side | V | Numpad 7 | Side button
 
