@@ -4,6 +4,17 @@ title: Arcade Machine
 permalink: /arcade/
 ---
 
+## News: 
+It’s that time of year again: the arcade competition is back for its second year!
+
+![Arcade Competion 2](/assets/Arcade2Title.png)
+
+This time you have three whole months to get creative and fill the arcade machine with a new batch of games. To compete, all you have to do is create a game for the arcade machine on your own or in a group: it could be something brand new or something based on an old project you have lying around. Games should be created using a slightly-modified version of the MonoGame framework (documented below) and sent to alexander.baldwin@mah.se in accordance with the guide on the documentation page. Just let me know if you need any help or advice about porting MonoGame or XNA projects to the arcade machine - I’m also happy to install test-versions on the machine at any stage during development.
+
+Between now and Sunday the 14th of May we’ll be accepting entries (by email to alexander.baldwin@mah.se) and then, after a two week judging period, the winners will be announced at the start of June. More details to follow!
+
+# Documentation
+
 This guide explains how to develop and publish games for Malmö University game development program’s arcade machine, currently found in section A3 of Orkanen, outside OR:A332.
 
 ![The arcade machine, in all its glory!](/assets/arcademachine.png)
