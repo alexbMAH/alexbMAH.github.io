@@ -9,9 +9,14 @@ It’s that time of year again: the arcade competition is back for its second ye
 
 ![Arcade Competion 2](/assets/Arcade2Title.png)
 
-This time you have three whole months to get creative and fill the arcade machine with a new batch of games. To compete, all you have to do is create a game for the arcade machine on your own or in a group: it could be something brand new or something based on an old project you have lying around. Games should be created using a slightly-modified version of the MonoGame framework (documented below) and sent to alexander.baldwin@mah.se in accordance with the guide on the documentation page. Just let me know if you need any help or advice about porting MonoGame or XNA projects to the arcade machine - I’m also happy to install test-versions on the machine at any stage during development.
+This time you have three whole months to get creative and fill the arcade machine with a new batch of games. To compete, all you have to do is create a game for the arcade machine on your own or in a group: it could be something brand new or something based on an old project you have lying around - why not work in something from a course you're currently studying? Games should be created using a slightly-modified version of the MonoGame framework (documented here: http://alexbmah.github.io/arcade/) and sent to alexander.baldwin@mah.se in accordance with the guide on the documentation page. Just let me know if you need any help or advice about porting MonoGame or XNA projects to the arcade machine - I’m also happy to install test-versions on the machine at any stage during development.
+
+Last year, seven groups entered and Simon Bothén & Sebastian Lind emerged victorious with their game Cloud Colony. All the games plus a few more are still up and running on the machine - try them out for a bit of inspiration.
 
 Between now and Sunday the 14th of May we’ll be accepting entries (by email to alexander.baldwin@mah.se) and then, after a two week judging period, the winners will be announced at the start of June. More details to follow!
+Please spread the word and feel free to ask any questions - I'm looking forward to seeing and hearing about your games!
+
+(Only open to currently registered students on the Spelutveckling programme)
 
 # Documentation
 
